@@ -1,8 +1,8 @@
 import { Link, useNavigate } from "react-router-dom"
 import { SignupInput } from "@hitikad/medium-common"
-import { ChangeEventHandler, useState } from "react"
 import axios from "axios"
 import { BACKEND_URL } from "../config"
+import { ChangeEvent, useState } from "react"
 
 
 export const Auth = ({type}: {type: "signup" | "signin"}) => {

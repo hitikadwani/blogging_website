@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Signup } from './pages/Signup'
@@ -10,7 +7,7 @@ import { Blogs } from './pages/Blogs'
 import { Publish } from './pages/Publish'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div>
